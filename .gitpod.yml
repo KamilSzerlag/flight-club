@@ -3,3 +3,7 @@ image: .gitpod.dockerfile
 ports:
   - port: 6080
     onOpen: open-preview
+
+tasks:
+  - init: ./gradlew build
+  - command: ./gradlew run
