@@ -1,4 +1,4 @@
-image: gitpod/workspace-full-vnc
+image: .gitpod.dockerfile
 
 ports:
   - port: 6080
